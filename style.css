@@ -1,0 +1,17 @@
+:root{--cream:#FBF7F1;--card:#fff;--ink:#2E2A26;--muted:#8C847A;--line:#EEE6DA;--coral:#F2846B;--lav:#8E7CE0;--sun:#F4B740;--teal:#3FB6A8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.6 "Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;padding:0 20px}
+main{max-width:720px;margin:0 auto;padding:56px 0 72px}
+header{display:flex;align-items:center;gap:14px;margin-bottom:36px}
+.logo{width:48px;height:48px;border-radius:14px;background:var(--coral);display:grid;place-items:center;color:#fff;font-weight:800;font-size:22px;box-shadow:0 6px 18px rgba(242,132,107,.35)}
+header a{color:inherit;text-decoration:none;font-weight:800;font-size:22px}
+h1{font-size:40px;line-height:1.15;margin:0 0 14px;font-weight:800;letter-spacing:-.5px}
+h2{font-size:22px;margin:36px 0 8px;font-weight:800}
+p,li{color:#4a443e}
+.lead{font-size:20px;color:var(--muted);margin:0 0 30px}
+.card{background:var(--card);border-radius:18px;padding:22px 24px;margin:14px 0;box-shadow:0 1px 0 var(--line)}
+.dots{display:flex;gap:8px;margin:0 0 28px}
+.dots span{width:14px;height:14px;border-radius:50%}
+ul{padding-left:20px}
+a{color:#c8644d}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;gap:18px;flex-wrap:wrap}
